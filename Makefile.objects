@@ -1,0 +1,2 @@
+skynet.lo: /home/oranges/Build/Webserver/php-5.4.3/ext/skynet/skynet.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/oranges/Build/Webserver/php-5.4.3/ext/skynet $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/oranges/Build/Webserver/php-5.4.3/ext/skynet/skynet.c -o skynet.lo 
